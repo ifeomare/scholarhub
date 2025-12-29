@@ -22,11 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# FILES
-public/
-src/assets/
-src/components/
-src/pages/
-src/styles/
-src/App.css
