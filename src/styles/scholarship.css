@@ -1,0 +1,29 @@
+.scholarship-card {
+  max-width: 460px;
+  min-height: 391px;
+  background-color: #d3a832;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.scholarship-img {
+  width: 100%;
+}
+
+.scholarship-img img {
+  width: 30%;
+  height: 30%;
+}
+
+.scholarship-details {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.d-col {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}

@@ -1,3 +1,5 @@
+import "./App.css";
+import Scholarship from "./components/scholarship.jsx";
 import Navbar from "./components/navbar.jsx";
 
 function App() {
@@ -260,6 +262,15 @@ function App() {
   return (
     <>
       <Navbar />
+      <main className="main">
+        <div>
+          <section className="scholarship-grid">
+            {scholarships.map((scholarship) => (
+              <Scholarship props={scholarship} key={scholarship.id} />
+            ))}
+          </section>
+        </div>
+      </main>
     </>
   );
 }

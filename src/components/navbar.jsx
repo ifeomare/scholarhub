@@ -3,7 +3,7 @@ import { PiStudentBold } from "react-icons/pi";
 
 const navbar = () => {
     return (
-      // fix navbar - include a nac tag and make every "link" with li and a tags
+      // fix navbar - include a nav tag and make every "link" with li and a tags with each developed page
       <header className="navbar">
         <div>
           <h1>Scholarhub</h1>
