@@ -1,3 +1,5 @@
+import Navbar from "./components/navbar.jsx";
+
 function App() {
   const scholarships = [
     {
@@ -257,6 +259,7 @@ function App() {
 
   return (
     <>
+      <Navbar />
     </>
   );
 }
