@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #563D39;
+}
+
+.nav-menu {
+    min-width: 70vw;
+    display: flex;
+    justify-content: flex-end;
+    padding: auto;
+}
+
+.nav-menu-item {
+    margin: auto;
+}
+
+.profile-icon {
+    font-size: 50px;
+}
