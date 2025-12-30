@@ -1,0 +1,40 @@
+.login-container {
+  min-width: 63.5vw;
+  min-height: 87vh;
+  font-style: italic;
+}
+
+.login-form {
+  width: 25vw;
+  height: 40vh;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.login-form h1 {
+  text-align: center;
+}
+
+.input-styles {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto 15px auto;
+}
+
+.login-button {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+#login {
+  width: 143px;
+  height: 30px;
+  margin: auto;
+  border-radius: 25px;
+  font-family: inherit;
+  font-style: inherit;
+}
