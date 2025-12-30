@@ -1,5 +1,6 @@
 import "../styles/login.css";
 import Navbar from "../components/navbar.jsx";
+
 function Login() {
   return (
     <>
@@ -22,7 +23,7 @@ function Login() {
               <input type="text" name="password" id="password" />
             </div>
             <div className="submit-button">
-              <input type="submit" value="Log In" id="login"/>
+              <input type="submit" value="Log In" id="login" />
             </div>
           </form>
         </main>

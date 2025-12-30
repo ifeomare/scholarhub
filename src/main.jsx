@@ -14,6 +14,7 @@ const router = createBrowserRouter([
     element: <Login />,
   },
 ]);
+
 createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
 );
