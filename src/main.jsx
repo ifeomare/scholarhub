@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import Login from "./pages/login.jsx";
 import CreateAccount from "./pages/create-account.jsx";
+import AboutUs from "./pages/about-us.jsx";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/create-account",
     element: <CreateAccount />,
+  },
+  {
+    path: "/about-us",
+    element: <AboutUs />,
   },
 ]);
 createRoot(document.getElementById("root")).render(
