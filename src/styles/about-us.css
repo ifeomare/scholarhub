@@ -1,0 +1,14 @@
+.multiline {
+    white-space: pre-wrap;
+    font-size: 25px;
+}
+
+.about {
+    width: 65%;
+    margin: 75px auto 100px auto;
+}
+
+.mission {
+    width: 75%;
+    margin: 100px auto 75px auto;
+}
