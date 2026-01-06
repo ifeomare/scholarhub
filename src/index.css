@@ -12,7 +12,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.page-format {
+.d-flex {
   display: flex;
 }
 
@@ -22,14 +22,54 @@
   min-height: 86vh;
 }
 
-.login-form input {
+.textbox-xs {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  margin: 0 auto 15px 0;
+  
+}
+
+.textbox-s {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto 15px auto;
+}
+
+.textbox-l {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto 15px auto;
+}
+
+.textbox-xl {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto 15px auto;
+}
+
+input[type="text"] {
   background-color: inherit;
-  border: 1px solid black;
+  border: 1px solid #563d39;
   height: 20px;
 }
 
-.submit-button {
-  width: 100%;
+.submit-button-container {
+  width: 70%;
   height: 30px;
-  text-align: center;
+  text-align: right;
+}
+
+#submit-button {
+  width: 143px;
+  height: 30px;
+  margin: auto;
+  border-radius: 25px;
+  border: 2px solid #563d39;
+  font-family: inherit;
+  font-style: inherit;
+  background-color: inherit;
 }
