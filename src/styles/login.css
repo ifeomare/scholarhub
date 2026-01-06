@@ -17,24 +17,21 @@
   text-align: center;
 }
 
-.input-styles {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  margin: 0 auto 15px auto;
-}
-
 .login-button {
   width: 100%;
   height: 30px;
   text-align: center;
 }
 
-#login {
-  width: 143px;
-  height: 30px;
-  margin: auto;
-  border-radius: 25px;
-  font-family: inherit;
-  font-style: inherit;
+.form-footer {
+  display: flex;
+}
+
+.form-footer a {
+  margin: auto auto 0px 15px;
+  text-decoration: none;
+}
+
+.form-footer a:active {
+  text-decoration: underline;
 }

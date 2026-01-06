@@ -1,0 +1,23 @@
+.create-account-container {
+  min-width: 63.5vw;
+  min-height: 87vh;
+  font-style: italic;
+  /* vertical-align: middle; */
+}
+.signup-form > div {
+  margin-bottom: 25px;
+}
+
+.signup-form {
+  width: 25vw;
+  min-height: auto;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.signup-form h1 {
+  text-align: center;
+  margin-top: 0;
+}

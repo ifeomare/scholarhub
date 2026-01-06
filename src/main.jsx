@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App.jsx";
 import Login from "./pages/login.jsx";
+import CreateAccount from "./pages/create-account.jsx";
 
 const router = createBrowserRouter([
   {
@@ -13,8 +14,11 @@ const router = createBrowserRouter([
     path: "/log-in",
     element: <Login />,
   },
+  {
+    path: "/create-account",
+    element: <CreateAccount />,
+  },
 ]);
-
 createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
 );
