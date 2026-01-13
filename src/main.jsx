@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import Login from "./pages/login.jsx";
 import CreateAccount from "./pages/create-account.jsx";
 import AboutUs from "./pages/about-us.jsx";
+import ForgotPassword from "./pages/forgot-password.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
     path: "/about-us",
     element: <AboutUs />,
   },
+  {
+    path: "/forgot-password",
+    element: <ForgotPassword />,
+  }
 ]);
 createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
