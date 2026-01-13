@@ -8,11 +8,11 @@ const scholarship = ({ props }) => {
         <h5 style={{ marginTop: "0px" }}>{props.organization}</h5>
       </div>
       <div className="scholarship-img">
-        <img
-          src="https://www.nnjcf.org/wp-content/uploads/2015/12/Andrea-Fund-Photo-626x1024.jpg"
+        {props.img=="" ? "":<img
+          src={props.img}
           alt="Scholarship Image"
           srcset=""
-        />
+        />}
       </div>
       <div className="scholarship-details">
         <div className="d-col">

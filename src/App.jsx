@@ -17,6 +17,7 @@ function App() {
       payouts: null,
       website:
         "https://www.nnjcf.org/cause-posts/andrea-tilbian-halejian-memorial-fund/",
+      img: "https://www.nnjcf.org/wp-content/uploads/2015/12/Andrea-Fund-Photo-626x1024.jpg",
       id: 16,
     },
     {
@@ -32,6 +33,7 @@ function App() {
       payouts: "2026-07-31",
       website:
         "https://pacf.org/grants-scholarships/scholarships/scholarships-for-students/#56db807e5c3d6245d",
+      img: "",
       id: 6,
     },
     {
@@ -47,6 +49,7 @@ function App() {
       payouts: null,
       website:
         "https://www.nnjcf.org/cause-posts/paul-coopersmith-in-memory-of-frank-delorenzo-memorial-fund/",
+      img: "https://www.nnjcf.org/wp-content/uploads/2019/01/Frankie-3-1.jpeg",
       id: 12,
     },
     {
@@ -62,6 +65,8 @@ function App() {
       payouts: null,
       website:
         "https://www.nnjcf.org/cause-posts/the-deanna-stark-pasciuto-memorial-fund/",
+      // img: "https://www.nnjcf.org/wp-content/uploads/2018/07/IMG_1591.jpg",
+      img: "https://www.nnjcf.org/wp-content/uploads/2018/07/2017-10-14-162708-163022-e1532109442998.jpg",
       id: 13,
     },
     {
@@ -77,6 +82,7 @@ function App() {
       payouts: "2026-07-31",
       website:
         "https://pacf.org/grants-scholarships/scholarships/scholarships-for-students/#66ad7f7568793b5af",
+      img: "",
       id: 4,
     },
     {
@@ -92,6 +98,7 @@ function App() {
       payouts: "2026-07-31",
       website:
         "https://pacf.org/grants-scholarships/scholarships/scholarships-for-students/#fc18f6efdfe71c587",
+      img: "https://pacf.org/wp-content/uploads/sandra-glazier_600x600.jpg",
       id: 2,
     },
     {
@@ -107,6 +114,7 @@ function App() {
       payouts: "2026-07-31",
       website:
         "https://pacf.org/grants-scholarships/scholarships/scholarships-for-students/#b011b7ff45ca38416",
+      img: "",
       id: 3,
     },
     {
@@ -122,6 +130,7 @@ function App() {
       payouts: null,
       website:
         "https://www.nnjcf.org/cause-posts/ralph-gregg-memorial-scholarship-fund/",
+      img: "https://www.nnjcf.org/wp-content/uploads/2015/12/Ralph2-147x150.jpeg",
       id: 15,
     },
     {
@@ -137,6 +146,7 @@ function App() {
       payouts: "2026-07-31",
       website:
         "https://pacf.org/grants-scholarships/scholarships/scholarships-for-students/#15d3b6386c432b5c4",
+      img: "",
       id: 1,
     },
     {
@@ -152,6 +162,7 @@ function App() {
       payouts: "2026-07-31",
       website:
         "https://pacf.org/grants-scholarships/scholarships/scholarships-for-students/#fd8c48ebc92d7d09e",
+      img: "",
       id: 7,
     },
     {
@@ -167,6 +178,7 @@ function App() {
       payouts: null,
       website:
         "https://www.nnjcf.org/cause-posts/the-joanna-shyong-scholarship-fund/",
+      img: "https://www.nnjcf.org/wp-content/uploads/2024/07/Joanna-Shyong-Scholarship-Fund-2.jpg",
       id: 8,
     },
     {
@@ -182,6 +194,7 @@ function App() {
       payouts: null,
       website:
         "https://www.nnjcf.org/cause-posts/the-edward-decker-memorial-fund/",
+      img: "https://www.nnjcf.org/wp-content/uploads/2025/04/Edward-Decker.jpg",
       id: 9,
     },
     {
@@ -196,6 +209,7 @@ function App() {
       results: null,
       payouts: null,
       website: "https://cfnj.org/current-funds/student-scholarships/",
+      img: "",
       id: 17,
     },
     {
@@ -210,6 +224,7 @@ function App() {
       results: null,
       payouts: null,
       website: "https://www.nnjcf.org/cause-posts/jannie-smith-legacy-fund/",
+      img: "https://www.nnjcf.org/wp-content/uploads/2020/08/Resized_20160724_214302.jpg",
       id: 11,
     },
     {
@@ -225,6 +240,7 @@ function App() {
       payouts: "2026-07-31",
       website:
         "https://pacf.org/grants-scholarships/scholarships/scholarships-for-students/#9783d12a93dd84f6b",
+      img: "",
       id: 5,
     },
     {
@@ -240,6 +256,7 @@ function App() {
       payouts: null,
       website:
         "https://www.nnjcf.org/cause-posts/david-vincent-rasa-md-rph-healthcare-scholarship-fund/",
+      img: "",
       id: 10,
     },
     {
@@ -255,6 +272,7 @@ function App() {
       payouts: null,
       website:
         "https://www.nnjcf.org/cause-posts/the-darren-drake-memorial-fund-memorializes-darren-scott-drake/",
+      img: "https://www.nnjcf.org/wp-content/uploads/2018/03/Darren_BOE.jpg",
       id: 14,
     },
   ];
