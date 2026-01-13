@@ -27,7 +27,6 @@
   flex-direction: column;
   width: 10%;
   margin: 0 auto 15px 0;
-  
 }
 
 .textbox-s {
@@ -65,7 +64,7 @@ input[type="text"] {
 
 #submit-button {
   width: 143px;
-  height: 30px;
+  max-height: 30px;
   margin: auto;
   border-radius: 25px;
   border: 2px solid #563d39;
